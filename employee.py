@@ -22,12 +22,12 @@ print(petro_employee.program_langs)
 
 #инкапсуляция
 
-#__function_and_varieble_prived
+#__function_and_varieble         "prived"
 
-#new class(class extension) public
+#new class(class extension)      "public"
 
 
 #полиморфизм
-#возможность использовать одинаковые имена
+#возможность использовать одинаковые имена в разных классах и в дочерних классах
 
 
