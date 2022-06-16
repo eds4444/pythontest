@@ -6,7 +6,7 @@ class Employee(Person):
     years_experence = 0
     program_langs = []
 
-    def __init__(self, experience=0, program_langs=[], **kwargs):
+    def __init__(self, experience=0, program_langs=[], **kwargs): # *args(список) **kwargs(словарь) 
         Person.__init__(self, **kwargs)
         self.years_experence = experience
         self.program_langs = program_langs
